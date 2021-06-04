@@ -1,0 +1,46 @@
+# Notes
+
+http://api.weatherapi.com/v1/current.json?key=<YOUR_API_KEY>&q=London
+
+
+curl -i "https://api.weatherapi.com/v1/current.json?key=6cfd147d4ff64062bfc20745210206&q=London"
+
+
+{
+  "location": {
+    "name": "Toronto",
+    "region": "Ontario",
+    "country": "Canada",
+    "lat": 43.67,
+    "lon": -79.42,
+    "tz_id": "America/Toronto",
+    "localtime_epoch": 1622763425,
+    "localtime": "2021-06-03 19:37"
+  },
+  "current": {
+    "temp_c": 19,
+    "temp_f": 66.2,
+    "condition": {
+      "text": "Sunny",
+      "icon": "//cdn.weatherapi.com/weather/64x64/day/113.png",
+      "code": 1000
+    },
+    "wind_mph": 0,
+    "wind_kph": 0,
+    "wind_degree": 222,
+    "wind_dir": "SW",
+    "pressure_mb": 1010,
+    "pressure_in": 30.3,
+    "precip_mm": 1,
+    "precip_in": 0.04,
+    "humidity": 83,
+    "cloud": 0,
+    "feelslike_c": 19,
+    "feelslike_f": 66.2,
+    "vis_km": 14,
+    "vis_miles": 8,
+    "uv": 4,
+    "gust_mph": 13.6,
+    "gust_kph": 22
+  }
+}
